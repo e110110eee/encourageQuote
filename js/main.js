@@ -51,7 +51,13 @@ function getQuote() {
           }, 500);
           $('#author').html(r.author);
         });
-
+      $(".quote-box").animate({
+        opacity:1,
+        marginTop:"20%"
+      },500);
+      $(".footer").animate({
+          opacity: 1
+       }, 500);
       var color = Math.floor(Math.random() * colors.length);
       $("html body").animate({
         backgroundColor: colors[color],
