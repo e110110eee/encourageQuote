@@ -67,7 +67,7 @@ $(document).ready(function() {
   $(".quote-box").css("opacity","0");
   $(".footer").css("opacity","0");
 
-  getQuote1(); 
+  getQuote(); 
   $('#new-quote').on('click', getQuote1);
   // $('#tweet-quote').on('click', function() {
   //   if(!inIframe()) {
