@@ -84,7 +84,7 @@ $(document).ready(function() {
 function getQuote1() {
   $.ajax({
     type: 'post',
-    url: 'http://route.showapi.com/1211-1',
+    url: 'https://route.showapi.com/1211-1',
     dataType: 'json',
     data: {
       "showapi_timestamp": formatterDateTime(),
